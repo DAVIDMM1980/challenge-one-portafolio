@@ -1,0 +1,133 @@
+.formcontacto {
+    background: #eaf2fd;
+}
+
+.contacto__contenedor {
+    width: 1136px;
+    margin: 0 auto;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    padding: 64px 0;
+}
+
+.izquierda {
+    width: 40%;
+}
+
+.derecha {
+    width: 60%;
+}
+
+.contact-img {
+    
+    border-radius: 1rem;
+}
+
+.contact-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 2rem;
+}
+
+.contact-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: .75rem;
+}
+
+.contact-subtext {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 0;
+}
+
+.contacto-input {
+    border: transparent;
+    height: 56px;
+    margin: 10px 0px;
+    width: calc(100% - 2rem);
+}
+
+.contacto-input:focus {
+    border-bottom: solid 2px #2a7ae4;
+}
+
+.contacto-input::placeholder {
+    color:#2a7ae4;
+}
+
+.contacto-textarea {
+    border: transparent;
+    /* height: 96px; */
+    height: 196px;
+    margin: 10px 0px;
+    width: calc(100% - 2rem);
+    resize: none;
+}
+
+.contacto-textarea::placeholder {
+    color:#2a7ae4;
+}
+
+.boton-contacto {
+    margin-top: .75rem;
+}
+
+@media screen and (max-width: 480px) {
+    .contacto__contenedor {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 2rem .3rem;
+        width: 100%;
+    }
+
+    .contacto {
+        padding: 0;
+    }
+
+    .derecha {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .izquierda {
+        width: 0;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .contacto__contenedor {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 2rem .3rem;
+        width: 100%;
+    }
+
+    .contacto {
+        padding: 0;
+    }
+
+    .derecha {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .izquierda {
+        width: 0;
+        display: none;
+    } }
+
+/* Media Query for Tablets Ipads portrait mode
+@media screen and (min-width: 769px) and (max-width: 1024px){}*/
